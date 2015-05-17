@@ -1,0 +1,6 @@
+---
+- name: "firewall restart"
+  sudo: yes
+  service:
+    name: "firewall"
+    state: restarted
