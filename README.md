@@ -11,6 +11,8 @@ None
 
 ## Role Variables
 
+Ansible variables are listed here along with their default values:
+
 `firewall_policy_input` sets the default policy for the INPUT chain:
 
     firewall_policy_input: "DROP"
